@@ -1,2 +1,20 @@
+/* Remove default propertys*/
+/* Set Font,color and sizing for page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(70, 68, 68);
+}
+/* To  Center and align content on page code from https://developer.mozilla.org/en-US/ */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+}
 
 
