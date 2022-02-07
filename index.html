@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,36 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-   <script src="assets/js/script.js"></script>
+    <div class="main-container">
+        <div class="game-area">
+            <!--Headings-->
+            <div class="heading-container">
+                <h1>Rock Paper Scissors</h1>
+            </div>
+            <!--Score area-->
+            <div class="score-container">
+                <p>Player<span id="player-scor">0</span></p>
+                <p>Computer<span id="comp-score">0</span></p>
+            </div>
+            <div class="heading-container">
+                <h2>Make your Move</h2>
+            </div>
+            <div class="player-options">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="scissors">Scissors</button>
+            </div>
+            <!--Game outcome-->
+            <div class="result"></div>
+            <div class="restart-container">
+                <button class="reset"></button>
+            </div>
+        </div>
+    </div>
+    <!--Link to javascript-->
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
