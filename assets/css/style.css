@@ -69,7 +69,10 @@ h2 {
     height: 6.5rem;
     border-radius: 50%;
     border: 0.2rem solid rgb(70, 68, 68);
+    cursor: pointer;
+   
 }
+
 /* add images to players buttons*/
 #rock {
     background: url(../images/rock.png) center no-repeat;
@@ -80,6 +83,7 @@ h2 {
 #scissors {
     background: url(../images/scissors.png) center no-repeat;
 }
+
 
 
 
