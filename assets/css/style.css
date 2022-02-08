@@ -51,6 +51,13 @@ h2 {
         width: 100%;
     }
 }
+/* Game area*/
+.game-area {
+    border: 0.1rem solid rgb(70, 68, 68);
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem;
+
+}
 /* Score area and players options */
 .score-container, .player-options {
     display: flex;
