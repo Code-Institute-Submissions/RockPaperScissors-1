@@ -29,7 +29,9 @@ h1 {
 }
 h2 {
     font-size: 2.5rem;
-    letter-spacing: 0.3rem;   
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: 0.5rem;   
 }
 /* Typing effect code from  https://dev.to/j471n/typing-effect-by-using-css-50p */
 .typing {
@@ -49,7 +51,7 @@ h2 {
         width: 100%;
     }
 }
-/* Score area and players options*/
+/* Score area and players options */
 .score-container, .player-options {
     display: flex;
     flex-direction: row;
@@ -61,5 +63,12 @@ h2 {
     letter-spacing: 0.2rem;
 
 }
+/* players buttons */
+.players-btn {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+}
+
 
 
