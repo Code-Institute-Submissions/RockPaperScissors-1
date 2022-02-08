@@ -124,3 +124,18 @@ h2 {
 #scissors:hover {
     background-color: rgba(11, 218, 245, 0.63);
 }
+/* Media queries*/
+/* Small devices (mobile phones, 450px and down) */
+@media screen and (max-width: 450px) {
+
+.game-area {
+    width: 95vw;
+    
+}
+h1, h2 {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+} 
+    
+}
