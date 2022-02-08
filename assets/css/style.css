@@ -49,5 +49,12 @@ h2 {
         width: 100%;
     }
 }
+/* Score area and players options*/
+.score-container, .player-options {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
 
 
