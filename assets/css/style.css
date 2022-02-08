@@ -2,6 +2,7 @@
 :root {
     font-size: 62.5%;
 }
+
 /* Remove default propertys*/
 /* Set Font,color and sizing for page*/
 * {
@@ -10,8 +11,9 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(70, 68, 68);
-    
+
 }
+
 /* To  Center and align content on page code from https://developer.mozilla.org/en-US/ */
 .main-container {
     width: 100vw;
@@ -21,18 +23,21 @@
     align-items: center;
     padding: 0.4rem;
 }
+
 /* Headings*/
 h1 {
     font-size: 3rem;
     letter-spacing: 0.3rem;
     padding: 1rem;
 }
+
 h2 {
     font-size: 2.5rem;
     letter-spacing: 0.3rem;
     text-align: center;
-    padding: 0.5rem;   
+    padding: 0.5rem;
 }
+
 /* Typing effect code from  https://dev.to/j471n/typing-effect-by-using-css-50p */
 .typing {
 
@@ -47,10 +52,12 @@ h2 {
     from {
         width: 0;
     }
+
     to {
         width: 100%;
     }
 }
+
 /* Game area*/
 .game-area {
     background-color: rgba(135, 207, 235, 0.63);
@@ -59,13 +66,16 @@ h2 {
     box-shadow: 0.2rem 0.2rem;
 
 }
+
 /* Score area and players options */
-.score-container, .player-options {
+.score-container,
+.player-options {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 }
+
 .score {
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
@@ -79,35 +89,37 @@ h2 {
     height: 6.5rem;
     border-radius: 50%;
     border: 0.2rem solid rgb(70, 68, 68);
+    box-shadow: 0.1rem 0.1rem;
     cursor: pointer;
     transition: 0.4s;
-   
+
 }
 
 
 /* add images to players buttons*/
 #rock {
     background: url(../images/rock.png) center no-repeat;
-    background-color:rgb(199, 226, 236);
+    background-color: rgb(199, 226, 236);
 }
+
 #paper {
     background: url(../images/paper.png) center no-repeat;
-    background-color:rgb(199, 226, 236);
+    background-color: rgb(199, 226, 236);
 }
+
 #scissors {
     background: url(../images/scissors.png) center no-repeat;
-    background-color:rgb(199, 226, 236);
+    background-color: rgb(199, 226, 236);
 }
+
 #rock:hover {
     background-color: rgba(11, 218, 245, 0.63);
 }
+
 #paper:hover {
     background-color: rgba(11, 218, 245, 0.63);
 }
+
 #scissors:hover {
     background-color: rgba(11, 218, 245, 0.63);
 }
-
-
-
-
