@@ -1,6 +1,7 @@
 /* set 1 REM=10px to page */
 :root {
     font-size: 62.5%;
+    background-color: rgb(241, 241, 239);
 }
 
 /* Remove default propertys*/
