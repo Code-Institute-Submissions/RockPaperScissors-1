@@ -88,12 +88,15 @@ h2 {
 /* add images to players buttons*/
 #rock {
     background: url(../images/rock.png) center no-repeat;
+    background-color:rgb(199, 226, 236);
 }
 #paper {
     background: url(../images/paper.png) center no-repeat;
+    background-color:rgb(199, 226, 236);
 }
 #scissors {
     background: url(../images/scissors.png) center no-repeat;
+    background-color:rgb(199, 226, 236);
 }
 #rock:hover {
     background-color: rgba(11, 218, 245, 0.63);
