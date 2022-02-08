@@ -29,8 +29,8 @@
 h1 {
     font-size: 3rem;
     letter-spacing: 0.3rem;
-    padding: 1rem;
-    text-align: center;
+    padding: 2rem;
+    
 }
 
 h2 {
@@ -42,7 +42,7 @@ h2 {
 
 /* Typing effect code from  https://dev.to/j471n/typing-effect-by-using-css-50p */
 .typing {
-
+   
     overflow: hidden;
     white-space: nowrap;
 
@@ -137,7 +137,9 @@ h1, h2 {
     font-size: 2rem;
     letter-spacing: 0.2rem;
     padding: 1rem;
+    margin:0 2rem;
    
 } 
+
     
 }
