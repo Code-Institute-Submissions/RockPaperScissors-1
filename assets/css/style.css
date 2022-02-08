@@ -25,7 +25,7 @@
 h1 {
     font-size: 3rem;
     letter-spacing: 0.3rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 h2 {
     font-size: 2.5rem;
@@ -53,6 +53,7 @@ h2 {
 }
 /* Game area*/
 .game-area {
+    background-color: rgba(135, 207, 235, 0.63);
     border: 0.1rem solid rgb(70, 68, 68);
     border-radius: 0.5rem;
     box-shadow: 0.2rem 0.2rem;
@@ -70,6 +71,8 @@ h2 {
     letter-spacing: 0.2rem;
 
 }
+
+
 /* players buttons */
 .players-btn {
     width: 6.5rem;
@@ -77,8 +80,10 @@ h2 {
     border-radius: 50%;
     border: 0.2rem solid rgb(70, 68, 68);
     cursor: pointer;
+    transition: 0.4s;
    
 }
+
 
 /* add images to players buttons*/
 #rock {
@@ -89,6 +94,15 @@ h2 {
 }
 #scissors {
     background: url(../images/scissors.png) center no-repeat;
+}
+#rock:hover {
+    background-color: rgba(11, 218, 245, 0.63);
+}
+#paper:hover {
+    background-color: rgba(11, 218, 245, 0.63);
+}
+#scissors:hover {
+    background-color: rgba(11, 218, 245, 0.63);
 }
 
 
