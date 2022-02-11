@@ -97,7 +97,6 @@ h2 {
 
 }
 
-
 /* add images to players buttons*/
 #rock {
     background: url(../images/rock.png) center no-repeat;
@@ -124,6 +123,18 @@ h2 {
 
 #scissors:hover {
     background-color: rgba(11, 218, 245, 0.63);
+}
+
+/* Reset button */
+.reset {
+    width: 10rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    border: 0.1rem solid rgb(70, 68, 68);
+    border-radius: 0.5rem;
+    text-align: center;
+    
 }
 /* Media queries*/
 /* Small devices (mobile phones, 450px and down) */
