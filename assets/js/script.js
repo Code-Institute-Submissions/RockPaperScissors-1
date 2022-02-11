@@ -7,13 +7,33 @@ window.addEventListener('load', function () {
 
 
 
-    function playerChoice(e) {
+    function getPlayerChoices(e) {
+        // select player option
+        //upadate player choice text
+        
     
     };
 
-    function computerChoice() {
+    function getComputerChoices() {
+        //get random choice for computer
+        //update computer choice text
 
-    :
+    };
+    function pickWinner() {
+        // set possible winers
+        // update outcome text
+        // update winner score
+
+    };
+    function startGame() {
+
+    };
+
+    //reset button 
+
+
+
+    
 
 
 
