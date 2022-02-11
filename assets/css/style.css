@@ -124,7 +124,13 @@ h2 {
 #scissors:hover {
     background-color: rgba(11, 218, 245, 0.63);
 }
-
+/* Center reset container on page */
+.reset-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
 /* Reset button */
 .reset {
     width: 10rem;
@@ -134,7 +140,7 @@ h2 {
     border: 0.1rem solid rgb(70, 68, 68);
     border-radius: 0.5rem;
     text-align: center;
-    
+        
 }
 /* Media queries*/
 /* Small devices (mobile phones, 450px and down) */
