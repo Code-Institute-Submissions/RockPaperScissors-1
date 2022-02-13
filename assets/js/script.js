@@ -73,6 +73,16 @@ window.addEventListener('load', function () {
                 sound.setAttribute('src', 'assets/sound/lost.mp3');
                 sound.play();
                 break;
+            case 'rockrock':
+            case 'scissorsscissors':
+            case 'paperpaper':
+                showOutcome.innerText = 'ITS A DRAWWW!!'
+                playerScore++;
+                playerScoreBoard.textContent = playerScore;
+                sound.setAttribute('src', 'assets/sound/draw.mp3');
+                sound.play();
+                break;
+
 
 
         }
