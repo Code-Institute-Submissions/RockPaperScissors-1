@@ -132,7 +132,7 @@ h2 {
     padding-bottom: 1rem;
 }
 /* Reset button */
-.reset {
+#reset {
     width: 10rem;
     height: 5rem;
     font-size: 1.5rem;
@@ -144,7 +144,7 @@ h2 {
     text-align: center;
     transition: 0.3s;    
 }
-.reset:hover {
+#reset:hover {
     cursor: pointer;
     background-color: rgba(11, 218, 245, 0.63);
     
