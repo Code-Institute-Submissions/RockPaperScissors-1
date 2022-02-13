@@ -5,23 +5,20 @@ window.addEventListener('load', function () {
     const computerScoreBoard = document.getElementById('comp-score');
     const showComputerChoice = document.getElementById('comp-choice');
     const showPlayerChoice = document.getElementById('player-choice');
-    const availableChoices = document.querySelectorAll('.player-btn');
-    console.log(playerChoices);
+    const availableChoices = document.querySelectorAll('.player-btn');   
     const showOutcome = document.getElementsByClassName('result');
-    const sound = document.querySelector('#sound');
-    console.log(sound);
-
-
-
+    const sound = document.querySelector('#sound'); 
     
-
-
-
-
-
+    /** Function to select players choices
+     * set available choices
+     * add event listener click to avilable choices 
+     */
     function getPlayerChoices(e) {
-        // select player option
-        //upadate player choice text
+        availableChoices.forEach(availableChoice => availableChoic.addEventListener('click', (e) => {
+            playerChoice = e.target.getElementById // set available  options
+            showPlayerChoice.innerText = playerChoice //upadate player choice text
+        }));
+        
         
     
     };
