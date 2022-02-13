@@ -24,7 +24,7 @@ window.addEventListener('load', function () {
     availableChoices.forEach(availableChoice => availableChoice.addEventListener('click', (e) => {
         playerChoice = e.target.getElementById // set available  options
         showPlayerChoice.innerHTML = playerChoice //upadate player choice text
-        
+        getComputerChoices();
     }));
 
 
@@ -32,9 +32,17 @@ window.addEventListener('load', function () {
 
 
     function getComputerChoices() {
-       let randomNumber = Math.floor(Math.random() * 3); //get random choice for computer from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-        
-            //update computer choice text
+        let randomNumber = Math.floor(Math.random() * 3); //get random choice for computer from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+        if (randomNumber === 0) {
+            computerChoice = 'rock'
+        }
+        if (randomNumber === 1) {
+            computerChoice = 'paper'
+        }
+        if (randomNumber == 2) {
+            computerChoice = 'scisorrs'
+        }
+        showComputerChoice.innerHTML = computerChoice;   //update computer choice text
 
     };
 
