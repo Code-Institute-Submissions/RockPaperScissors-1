@@ -51,7 +51,7 @@ window.addEventListener('load', function () {
         showComputerChoice.innerHTML = computerChoice; //update computer choice text
 
     };
-
+    // function  to pick wiiner code from https://stackoverflow.com/questions/66247447/need-help-for-solving-switch-case-statement-for-rock-paper-scissors
     function pickWinner() {
         let moves = playerChoice + computerChoice;
         switch (moves) {
@@ -64,17 +64,27 @@ window.addEventListener('load', function () {
                 sound.setAttribute('src', 'assets/sound/winner.mp3');
                 sound.play();
                 break;
+            case 'rockpaper':
+            case 'scissorsrock':
+            case 'paperscissors':
+                showOutcome.innerText = 'YOU LOOSE!'
+                playerScore++;
+                playerScoreBoard.textContent = playerScore;
+                sound.setAttribute('src', 'assets/sound/lost.mp3');
+                sound.play();
+                break;
+
 
         }
 
     }
 
-        
 
-        
-        // update winner score
 
-    
+
+    // update winner score
+
+
 
     function startGame() {
 
