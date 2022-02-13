@@ -25,30 +25,28 @@ window.addEventListener('load', function () {
      * add event listener click to avilable choices 
      */
     availableChoices.forEach(availableChoice => availableChoice.addEventListener('click', (e) => {
-        playerChoice = e.target.id // set available  options
-        showPlayerChoice.innerHTML = playerChoice //upadate player choice text
+        playerChoice = e.target.id; // set available  options
+        showPlayerChoice.innerHTML = playerChoice; //upadate player choice text
         getComputerChoices();
         pickWinner();
     }));
-
-
 
     /**
      * Get random choice for computer
      * pick choice
      * print computer choice to screen
      */
-
     function getComputerChoices() {
         let randomNumber = Math.floor(Math.random() * 3); //get random choice for computer from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+        blocked = true;
         if (randomNumber === 0) {
-            computerChoice = 'rock'
+            computerChoice = 'rock';
         }
         if (randomNumber === 1) {
-            computerChoice = 'paper'
+            computerChoice = 'paper';
         }
         if (randomNumber == 2) {
-            computerChoice = 'scisorrs'
+            computerChoice = 'scisorrs';
         }
         showComputerChoice.innerHTML = computerChoice; //update computer choice text
 
@@ -60,7 +58,7 @@ window.addEventListener('load', function () {
             case 'rockscissors':
             case 'paperrock':
             case 'scissorspaper':
-                showOutcome.innerText = 'YOU WIN!'
+                showOutcome.innerText = 'YOU WIN!';
                 playerScore++;
                 playerScoreBoard.textContent = playerScore;
                 sound.setAttribute('src', 'assets/sound/winner.mp3');
@@ -69,7 +67,7 @@ window.addEventListener('load', function () {
             case 'rockpaper':
             case 'scissorsrock':
             case 'paperscissors':
-                showOutcome.innerText = 'YOU LOOSE!'
+                showOutcome.innerText = 'YOU LOOSE!';
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
                 sound.setAttribute('src', 'assets/sound/lost.mp3');
@@ -78,7 +76,7 @@ window.addEventListener('load', function () {
             case 'rockrock':
             case 'scissorsscissors':
             case 'paperpaper':
-                showOutcome.innerText = 'ITS A DRAWWW!!'
+                showOutcome.innerText = 'ITS A DRAWWW!!';
                 playerScore++;
                 playerScoreBoard.textContent = playerScore;
                 sound.setAttribute('src', 'assets/sound/draw.mp3');
@@ -87,7 +85,7 @@ window.addEventListener('load', function () {
         }
     }        //reset button relod window set score to 0
     startOver.addEventListener('click', () => {
-        this.window.location.reload();
+        window.location.reload();
     });
 
 
