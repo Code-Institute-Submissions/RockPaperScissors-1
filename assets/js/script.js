@@ -5,12 +5,9 @@ window.addEventListener('load', function () {
     const computerScoreBoard = document.getElementById('comp-score');
     const showComputerChoice = document.getElementById('comp-choice');
     const showPlayerChoice = document.getElementById('player-choice');
-    const availableChoices = document.querySelectorAll('.player-btn');
-    console.log(availableChoices);
-    const showOutcome = document.getElementById('result');
-    console.log(showOutcome);
-    const startOver = document.getElementById('reset');
-    console.log(startOver);
+    const availableChoices = document.querySelectorAll('.player-btn');    
+    const showOutcome = document.getElementById('result');    
+    const startOver = document.getElementById('reset');    
     const sound = document.querySelector('#sound');
 
     // create variables
@@ -46,7 +43,7 @@ window.addEventListener('load', function () {
             computerChoice = 'paper';
         }
         if (randomNumber == 2) {
-            computerChoice = 'scisorrs';
+            computerChoice = 'scissors';
         }
         showComputerChoice.innerHTML = computerChoice; //update computer choice text
 
@@ -77,8 +74,6 @@ window.addEventListener('load', function () {
             case 'scissorsscissors':
             case 'paperpaper':
                 showOutcome.innerText = 'ITS A DRAWWW!!';
-                playerScore++;
-                playerScoreBoard.textContent = playerScore;
                 sound.setAttribute('src', 'assets/sound/draw.mp3');
                 sound.play();
                 break;
