@@ -7,21 +7,26 @@ window.addEventListener('load', function () {
     const showPlayerChoice = document.getElementById('player-choice');
     const availableChoices = document.querySelectorAll('.player-btn');   
     const showOutcome = document.getElementsByClassName('result');
-    const sound = document.querySelector('#sound'); 
+    const sound = document.querySelector('#sound');
+    
+    // create variables
+    let playerChoice;
+    let computerChoice;
+    let playerScore = 0;
+    let computerScore = 0;
     
     /** Function to select players choices
      * set available choices
      * add event listener click to avilable choices 
-     */
-    function getPlayerChoices(e) {
-        availableChoices.forEach(availableChoice => availableChoic.addEventListener('click', (e) => {
-            playerChoice = e.target.getElementById // set available  options
-            showPlayerChoice.innerText = playerChoice //upadate player choice text
-        }));
+     */    
+    availableChoices.forEach(availableChoice => availableChoice.addEventListener('click', (e) => {
+        playerChoice = e.target.getElementById // set available  options
+        showPlayerChoice.innerText = playerChoice //upadate player choice text
+    }));
         
         
     
-    };
+    
 
     function getComputerChoices() {
         //get random choice for computer
