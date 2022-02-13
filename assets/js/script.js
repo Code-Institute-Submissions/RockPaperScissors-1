@@ -7,7 +7,8 @@ window.addEventListener('load', function () {
     const showPlayerChoice = document.getElementById('player-choice');
     const availableChoices = document.querySelectorAll('.player-btn');
     console.log(availableChoices);
-    const showOutcome = document.getElementsByClassName('result');
+    const showOutcome = document.getElementById('result');
+    console.log(showOutcome);
     const sound = document.querySelector('#sound');
 
     // create variables
@@ -22,14 +23,19 @@ window.addEventListener('load', function () {
      * add event listener click to avilable choices 
      */
     availableChoices.forEach(availableChoice => availableChoice.addEventListener('click', (e) => {
-        playerChoice = e.target.getElementById // set available  options
+        playerChoice = e.target.id // set available  options
         showPlayerChoice.innerHTML = playerChoice //upadate player choice text
         getComputerChoices();
+        pickWinner();
     }));
 
 
 
-
+    /**
+     * Get random choice for computer
+     * pick choice
+     * print computer choice to screen
+     */
 
     function getComputerChoices() {
         let randomNumber = Math.floor(Math.random() * 3); //get random choice for computer from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -42,16 +48,33 @@ window.addEventListener('load', function () {
         if (randomNumber == 2) {
             computerChoice = 'scisorrs'
         }
-        showComputerChoice.innerHTML = computerChoice;   //update computer choice text
+        showComputerChoice.innerHTML = computerChoice; //update computer choice text
 
     };
 
     function pickWinner() {
-        // set possible winers
-        // update outcome text
+        let moves = playerChoice + computerChoice;
+        switch (moves) {
+            case 'rockscissors':
+            case 'paperrock':
+            case 'scissorspaper':
+                showOutcome.innerText = 'YOU WIN!'
+                playerScore++;
+                playerScoreBoard.textContent = playerScore;
+                sound.setAttribute('src', 'assets/sound/winner.mp3');
+                sound.play();
+                break;
+
+        }
+
+    }
+
+        
+
+        
         // update winner score
 
-    };
+    
 
     function startGame() {
 
