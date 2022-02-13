@@ -68,8 +68,8 @@ window.addEventListener('load', function () {
             case 'scissorsrock':
             case 'paperscissors':
                 showOutcome.innerText = 'YOU LOOSE!'
-                playerScore++;
-                playerScoreBoard.textContent = playerScore;
+                computerScore++;
+                computerScoreBoard.textContent = computerScore;
                 sound.setAttribute('src', 'assets/sound/lost.mp3');
                 sound.play();
                 break;
@@ -82,9 +82,6 @@ window.addEventListener('load', function () {
                 sound.setAttribute('src', 'assets/sound/draw.mp3');
                 sound.play();
                 break;
-
-
-
         }
 
     }
