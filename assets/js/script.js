@@ -9,6 +9,8 @@ window.addEventListener('load', function () {
     console.log(availableChoices);
     const showOutcome = document.getElementById('result');
     console.log(showOutcome);
+    const startOver = document.getElementById('reset');
+    console.log(startOver);
     const sound = document.querySelector('#sound');
 
     // create variables
@@ -83,30 +85,10 @@ window.addEventListener('load', function () {
                 sound.play();
                 break;
         }
-
-    }
-
-
-
-
-    // update winner score
-
-
-
-    function startGame() {
-
-    };
-
-    //reset button 
-
-
-
-
-
-
-
-
-
+    }        //reset button relod window set score to 0
+    startOver.addEventListener('click', () => {
+        this.window.location.reload();
+    });
 
 
 });
