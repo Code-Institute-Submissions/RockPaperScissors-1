@@ -62,14 +62,22 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 * Accessibility
    * I confirmed that website preforms highly, running through Chrome's lighthouse devtools. Colors and fonts chosen easy to read.
  
-![lighthouse validator image]()
+![lighthouse validator image](README/lighthouse.JPG)
 
 * HTML
    * No errors were returned when passing the official [W3C](https://validator.w3.org/) validator.
    
-   ![html validator image]()
+   ![html validator image](README/w3.JPG)
 * CSS
    * No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/) validator.
+   <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+        
 
 * Javascript
   * No errors but warnings were returned when passing through the the [JSHint](https://jshint.com/) Validator.
