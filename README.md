@@ -40,25 +40,21 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 * Image are very simple to represent rock paper and scissors.
 #### Wireframes
  ![wireframe](README/wireframe.JPG)
-
- 
-*
-*
-*
-*
-## Wireframes
-*
-*
-*
-*
-# Features
-*
-*
-*
+#### Features
+* Resposive on mobile divices
+* Interactive
 # Technologies Used
-*
-*
-*
+#### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+#### Programs Used
+* [GitHub:](https://github.com/)
+  * GitHub is used to store the projects code.
+*  [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+  * Photoshop was used to resize images and for editing images for the website.
+* [Balsamiq:](https://balsamiq.com/)
+  * Balsamiq was used to create the wireframe design.
 # Testing
 *
 *
