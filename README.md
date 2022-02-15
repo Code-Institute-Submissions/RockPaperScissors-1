@@ -12,15 +12,15 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 ### User stories
 #### First Time Visitor Goals
   1. As a First Time Visitor, I want to easily understand the main purpose of the site.
-  2. As a First Time Visitor, I want chalge computer in the game.
+  2. As a First Time Visitor, I want challenge computer in the game.
   3. As a first Time Visitor, I want have fun.
   
 #### Returning Visitor Goals
-  1. As a Returning Visitor, I want to chalge computer over agin.
+  1. As a Returning Visitor, I want to challenge computer over again.
   2.  As a Returning Visitor, I want to have more fun.
   
 ####  Frequent User Goals
-  1. As a Frequent User, I want to see how may time i can win agaist computer.
+  1. As a Frequent User, I want to see how may time i can win  against  computer.
   2. As a Frequent User, I want to have more fun.
   
 # Design
@@ -28,14 +28,14 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 * The two main colours used are rgb(70, 68, 68) and rgba(135, 207, 235, 0.63).
 
 #### Typography
-* I used Courier New monospace font as typical fixed pitch design, monotone in weigh to imetate classic typewriter output.
+* I used Courier New monospace font as typical fixed pitch design, monotone in weigh to imitate classic typewriter output.
 
 #### Imagery
 * Image are very simple to represent rock paper and scissors.
 #### Wireframes
  ![wireframe](README/wireframe.JPG)
 #### Features
-* Resposive on mobile divices
+* Responsive on mobile devices
 * Interactive
 # Technologies Used
 #### Languages Used
@@ -52,7 +52,7 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 # Testing
 ### Validator and Testing
 * Accessibility
-   * I confirmed that website preforms highly, running through Chrome's lighthouse devtools. Colors and fonts chosen easy to read.
+   * I confirmed that website preforms highly, running through Chrome's lighthouse devtools. Colours  and fonts chosen easy to read.
  
 ![lighthouse validator image](README/lighthouse.JPG)
 
@@ -76,16 +76,16 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
   ![js validator image](README/jshint.JPG)
 
 * Game Testing
-  * All buttons were tested manually to ensure the user is choice is confirmd when presed.
+  * All buttons were tested manually to ensure the user is choice is confirmed when pressed.
   * Computer choice where tested for random selection
-  * Score incresment work acordenly to outcome of the game.
+  * Score increment  work accordingly to outcome of the game.
   * Outcome message displayed correctly depending on the winner.
   * I tested that this website works with different browser Google Chrome, Firefox, Microsoft Edge and Safari.
   * I tested that website works on Android operating system and IOS devices.
 # Known Bugs
 * There are no known bugs.
 # Fixed Bugs
-* The game would not work after testing descoverd syntax errors.
+* The game would not work after testing discovered syntax errors.
 # Deployment
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
    * In GitHub repository, navigate to the settings tab.
@@ -96,10 +96,10 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.github.io/RockPaperScissors/)
 # Credits
 #### Code
-* To  Center and align content on page code from [developer](https://developer.mozilla.org/en-US/).
+* To  Centre and align content on page code from [developer](https://developer.mozilla.org/en-US/).
 * Typing effect code from  [Dev](https://dev.to/j471n/typing-effect-by-using-css-50p).
 * To get random choice for computer from [developer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
-* Function  to pick wiiner code from [stackoverflow](https://stackoverflow.com/questions/66247447/need-help-for-solving-switch-case-statement-for-rock-paper-scissors)
+* Function  to pick winer code from [stackoverflow](https://stackoverflow.com/questions/66247447/need-help-for-solving-switch-case-statement-for-rock-paper-scissors)
 #### Media
 * Images for the websites were taken from [pngtree](https://pngtree.com/free-png).
 * Audio from [zapsplat](https://www.zapsplat.com/).

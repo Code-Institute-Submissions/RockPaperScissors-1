@@ -48,7 +48,7 @@ window.addEventListener('load', function () {
         showComputerChoice.innerHTML = computerChoice; //update computer choice text
 
     };
-    // function  to pick wiiner code from https://stackoverflow.com/questions/66247447/need-help-for-solving-switch-case-statement-for-rock-paper-scissors
+    // function  to pick winer code from https://stackoverflow.com/questions/66247447/need-help-for-solving-switch-case-statement-for-rock-paper-scissors
     function pickWinner() {
         let moves = playerChoice + computerChoice;
         switch (moves) {
