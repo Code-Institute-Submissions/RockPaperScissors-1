@@ -96,13 +96,10 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 * Typing effect code from  [Dev](https://dev.to/j471n/typing-effect-by-using-css-50p).
 * To get random choice for computer from [developer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 * Function  to pick wiiner code from [stackoverflow](https://stackoverflow.com/questions/66247447/need-help-for-solving-switch-case-statement-for-rock-paper-scissors)
-
-## Content
-* The icons for social media the footer where taken from [Font Awesome](https://fontawesome.com/)
-* Font used was taken from [Google Fonts](https://fonts.google.com/)
-
-
-## Media
-* Images for the websites were taken from [I Stock Photo](https://www.istockphoto.com/) and [Pexels](https://pexels.com).
+#### Media
+* Images for the websites were taken from [pngtree](https://pngtree.com/free-png).
+* Audio from [zapsplat](https://www.zapsplat.com/).
+#### Books
+* Javascript & jquery by Jon Duckett
 
 
