@@ -56,9 +56,26 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 * [Balsamiq:](https://balsamiq.com/)
   * Balsamiq was used to create the wireframe design.
 # Testing
-*
-*
-*
+### Validator Testing
+* Accessibility
+   * I confirmed that website preforms highly, running through Chrome's lighthouse devtools. Colors and fonts chosen easy to read.
+ 
+![lighthouse validator image]()
+
+* HTML
+   * No errors were returned when passing the official [W3C](https://validator.w3.org/) validator.
+   
+   ![html validator image]()
+* CSS
+   * No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/) validator.
+   
+* Javascript
+  * No errors but warnings were returned when passing through the the [JSHint](https://jshint.com/) Validator
+
+
+
+
+
 # Testing User Stories from User Experience (UX) Section
 *
 *
