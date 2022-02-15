@@ -1,4 +1,4 @@
-# Rock Paper Scissors
+# Rock Paper Scissors <a name="top"></a>
 
 A classic two-person game. 
 Players start each round by saying, “rock, paper, scissors, shoot!”
@@ -10,10 +10,12 @@ Rock crushes scissors, scissors cut paper, and paper covers rock. See who wins e
 The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.github.io/RockPaperScissors/)
 
 # Index
-*
-*
-*
-*
+* [UX](User Experience (UX)
+* [Design] (# Design)
+* [Technologies Used] (# Technologies Used)
+* [Testing] (# Testing)
+* [Deployment] (# Deployment)
+* [Credits] (# Credits)
 # User Experience (UX)
 ### User stories
 #### First Time Visitor Goals
@@ -100,6 +102,7 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 * Images for the websites were taken from [pngtree](https://pngtree.com/free-png).
 * Audio from [zapsplat](https://www.zapsplat.com/).
 #### Books
-* Javascript & jquery by Jon Duckett
+* Javascript & jquery by Jon Duckett.
+### [Go To Top](#top)
 
 
