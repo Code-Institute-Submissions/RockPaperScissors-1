@@ -78,6 +78,10 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
   * Computer choice where tested for random selection
   * Score incresment work acordenly to outcome of the game.
   * Outcome message displayed correctly depending on the winner.
+# Known Bugs
+* There are no known bugs.
+# Fixed Bugs
+* The game would not work after testing descoverd syntax errors.
 # Deployment
 *
 *
