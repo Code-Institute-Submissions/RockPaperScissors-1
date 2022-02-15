@@ -8,14 +8,6 @@ Rock crushes scissors, scissors cut paper, and paper covers rock. See who wins e
 ![multi screen](README/responsive.JPG)
 
 The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.github.io/RockPaperScissors/)
-
-# Index
-* [UX](User Experience (UX)
-* [Design] (# Design)
-* [Technologies Used] (# Technologies Used)
-* [Testing] (# Testing)
-* [Deployment] (# Deployment)
-* [Credits] (# Credits)
 # User Experience (UX)
 ### User stories
 #### First Time Visitor Goals
@@ -88,6 +80,8 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
   * Computer choice where tested for random selection
   * Score incresment work acordenly to outcome of the game.
   * Outcome message displayed correctly depending on the winner.
+  * I tested that this website works with different browser Google Chrome, Firefox, Microsoft Edge and Safari.
+  * I tested that website works on Android operating system and IOS devices.
 # Known Bugs
 * There are no known bugs.
 # Fixed Bugs
