@@ -73,7 +73,7 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 
 * Javascript
   * No errors but warnings were returned when passing through the the [JSHint](https://jshint.com/) Validator.
-  ![js validator image]()
+  ![js validator image](README/jshint.JPG)
 
 * Game Testing
   * All buttons were tested manually to ensure the user is choice is confirmd when presed.

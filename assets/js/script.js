@@ -35,7 +35,7 @@ window.addEventListener('load', function () {
      */
     function getComputerChoices() {
         let randomNumber = Math.floor(Math.random() * 3); //get random choice for computer from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-        blocked = true;
+        
         if (randomNumber === 0) {
             computerChoice = 'rock';
         }
