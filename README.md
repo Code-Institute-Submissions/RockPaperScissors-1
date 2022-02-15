@@ -39,7 +39,7 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 #### Imagery
 * Image are very simple to represent rock paper and scissors.
 #### Wireframes
-* ![wireframe]()
+ ![wireframe](README/wireframe.JPG)
 
  
 *
