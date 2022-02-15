@@ -25,11 +25,22 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
   1. As a Returning Visitor, I want to chalge computer over agin.
   2.  As a Returning Visitor, I want to have more fun.
   
-####   Frequent User Goals
+####  Frequent User Goals
   1. As a Frequent User, I want to see how may time i can win agaist computer.
   2. As a Frequent User, I want to have more fun.
   
 # Design
+#### Colour Scheme
+* The two main colours used are rgb(70, 68, 68) and rgba(135, 207, 235, 0.63).
+
+#### Typography
+* I used Courier New monospace font as typical fixed pitch design, monotone in weigh to imetate classic typewriter output.
+
+#### Imagery
+* Image are very simple to represent rock paper and scissors.
+#### Wireframes
+* ![wireframe]()
+
  
 *
 *
