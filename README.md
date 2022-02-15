@@ -83,7 +83,26 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 # Fixed Bugs
 * The game would not work after testing descoverd syntax errors.
 # Deployment
-*
-*
-*
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+   * In GitHub repository, navigate to the settings tab.
+   * From side menu select pages tab.
+   * Once there select source branch:main, select folder/(root).
+   * Click save, the page provided the link to the completed website.
+   
+The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.github.io/RockPaperScissors/)
 # Credits
+#### Code
+* To  Center and align content on page code from [developer](https://developer.mozilla.org/en-US/).
+* Typing effect code from  [Dev](https://dev.to/j471n/typing-effect-by-using-css-50p).
+* To get random choice for computer from [developer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+* Function  to pick wiiner code from [stackoverflow](https://stackoverflow.com/questions/66247447/need-help-for-solving-switch-case-statement-for-rock-paper-scissors)
+
+## Content
+* The icons for social media the footer where taken from [Font Awesome](https://fontawesome.com/)
+* Font used was taken from [Google Fonts](https://fonts.google.com/)
+
+
+## Media
+* Images for the websites were taken from [I Stock Photo](https://www.istockphoto.com/) and [Pexels](https://pexels.com).
+
+
