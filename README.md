@@ -15,11 +15,22 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 *
 *
 # User Experience (UX)
-## User stories
-*
-*
-*
+### User stories
+#### First Time Visitor Goals
+  1. As a First Time Visitor, I want to easily understand the main purpose of the site.
+  2. As a First Time Visitor, I want chalge computer in the game.
+  3. As a first Time Visitor, I want have fun.
+  
+#### Returning Visitor Goals
+  1. As a Returning Visitor, I want to chalge computer over agin.
+  2.  As a Returning Visitor, I want to have more fun.
+  
+####   Frequent User Goals
+  1. As a Frequent User, I want to see how may time i can win agaist computer.
+  2. As a Frequent User, I want to have more fun.
+  
 # Design
+ 
 *
 *
 *
