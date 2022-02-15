@@ -56,7 +56,7 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
 * [Balsamiq:](https://balsamiq.com/)
   * Balsamiq was used to create the wireframe design.
 # Testing
-### Validator Testing
+### Validator and Testing
 * Accessibility
    * I confirmed that website preforms highly, running through Chrome's lighthouse devtools. Colors and fonts chosen easy to read.
  
@@ -68,18 +68,16 @@ The live link can be found here - [Rock Paper Scissors](https://aleksandrdenis.g
    ![html validator image]()
 * CSS
    * No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/) validator.
-   
+
 * Javascript
-  * No errors but warnings were returned when passing through the the [JSHint](https://jshint.com/) Validator
+  * No errors but warnings were returned when passing through the the [JSHint](https://jshint.com/) Validator.
+  ![js validator image]()
 
-
-
-
-
-# Testing User Stories from User Experience (UX) Section
-*
-*
-*
+* Game Testing
+  * All buttons were tested manually to ensure the user is choice is confirmd when presed.
+  * Computer choice where tested for random selection
+  * Score incresment work acordenly to outcome of the game.
+  * Outcome message displayed correctly depending on the winner.
 # Deployment
 *
 *
